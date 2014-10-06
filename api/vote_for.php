@@ -15,7 +15,7 @@ if(!isset($_SESSION['voted'])){
 }
 
 $partyName = $_GET['vote'];
-$party = new Party(); // Should probably put party name in constructer...
+$party = new Party();
 $uid = $_SESSION['uid'];
 
 $party->voteForParty($partyName, $uid, '0000-00-00');
