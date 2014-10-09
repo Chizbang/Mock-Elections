@@ -18,4 +18,4 @@ $partyName = $_GET['vote'];
 $party = new Party();
 $uid = $_SESSION['uid'];
 
-$party->voteForParty($partyName, $uid, '0000-00-00');
+$party->voteForParty($partyName, $uid, date("Y-m-d"));
