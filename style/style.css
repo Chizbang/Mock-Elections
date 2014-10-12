@@ -162,7 +162,7 @@ body{
 	}
 }
 
-@media screen and (orientation:portrait){
+@media screen and (orientation:portrait), (max-width:620px){
 	#container{
 		width: 100%;
 		height: 500px;
